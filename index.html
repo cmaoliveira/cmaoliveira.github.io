@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="css/materialize/css/materialize.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="css/style.css"
+    />
+  </head>
+  <body>
+    <form>
+      <div class="container">
+        <div class="row">
+          <div class="col s2">
+            <p>
+              <span class="Vermelho badge red">(R) Vermelho</span>
+            </p>
+          </div>
+          <div class="col s4">
+            <p class="range-field">
+              <input
+                type="range"
+                id="rangeRed"
+                class="inputRange"
+                min="0"
+                max="255"
+              />
+            </p>
+          </div>
+          <div class="col s1">
+            <input
+              disabled
+              id="inputRed"
+              class="inputValue"
+              type="text"
+              value="0"
+            />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col s2">
+            <p>
+              <span class="Verde badge green">(G) Verde</span>
+            </p>
+          </div>
+          <div class="col s4">
+            <p class="range-field">
+              <input
+                type="range"
+                id="rangeGreen"
+                class="inputRange"
+                min="0"
+                max="255"
+              />
+            </p>
+          </div>
+          <div class="col s1">
+            <input
+              disabled
+              id="inputGreen"
+              class="inputValue"
+              type="text"
+              value="0"
+            />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col s2">
+            <p>
+              <span class="Azul badge blue">(B) Azul</span>
+            </p>
+          </div>
+          <div class="col s4">
+            <p class="range-field">
+              <input
+                type="range"
+                id="rangeBlue"
+                class="inputRange"
+                min="0"
+                max="255"
+              />
+            </p>
+          </div>
+          <div class="col s1">
+            <input
+              disabled
+              id="inputBlue"
+              class="inputValue"
+              type="text"
+              value="0"
+            />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col s2"></div>
+          <div class="col s4">
+            <div class="boxColor"></div>
+          </div>
+        </div>
+      </div>
+    </form>
+    <script src="css/materialize/js/materialize.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
